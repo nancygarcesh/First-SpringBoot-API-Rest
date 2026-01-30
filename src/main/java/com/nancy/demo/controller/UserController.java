@@ -1,7 +1,7 @@
 package com.nancy.demo.controller;
 
-import com.nancy.usersapi.model.User;
-import com.nancy.usersapi.service.UserService;
+import com.nancy.demo.model.User;
+import com.nancy.demo.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 

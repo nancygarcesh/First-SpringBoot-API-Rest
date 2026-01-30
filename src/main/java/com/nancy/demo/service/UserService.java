@@ -1,9 +1,9 @@
 package com.nancy.demo.service;
 
-import com.nancy.usersapi.exception.DuplicateResourceException;
-import com.nancy.usersapi.exception.ResourceNotFoundException;
-import com.nancy.usersapi.model.User;
-import com.nancy.usersapi.repository.UserRepository;
+import com.nancy.demo.exception.DuplicateResourceException;
+import com.nancy.demo.exception.ResourceNotFoundException;
+import com.nancy.demo.model.User;
+import com.nancy.demo.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

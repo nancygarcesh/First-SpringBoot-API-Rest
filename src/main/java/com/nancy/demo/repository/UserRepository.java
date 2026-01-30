@@ -1,6 +1,6 @@
-package com.nancy.usersapi.repository;
+package com.nancy.demo.repository;
 
-import com.nancy.usersapi.model.User;
+import com.nancy.demo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
