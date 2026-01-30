@@ -39,5 +39,7 @@ export async function updateUser(id: number, user: User) {
 
 export async function deleteUser(id: number) {
     const res = await fetch(`${BASE_URL}/users/${id}`, { method: "DELETE" });
-    return handleResponse(res);
+    if (!res.ok) {
+        throw new Error(`Failed to delete user: ${res.statusText}`);
+    }
 }
